@@ -19,7 +19,7 @@ public class TestClassTest {
         int n2 = 7;
         int n1n2 = n1*n2;
 
-        assertThat(TestClass.addition(n1, n1)).isEqualTo(n1n2);
+        assertThat(TestClass.multiplication(n1, n2)).isEqualTo(n1n2);
     }
 
 }
